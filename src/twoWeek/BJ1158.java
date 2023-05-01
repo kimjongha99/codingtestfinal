@@ -10,7 +10,7 @@ import java.util.Scanner;
 //시작하는 사람부터 시계방향으로 'k'명을 세고 원에서 'k'번째 사람을 제거합니다
 //방금 탈락한 사람부터 시계방향으로 'k'명을 다시 세어 'k'번째 사람을 다시 탈락시킨다.
 //한 사람만 남을 때까지 이 과정을 계속합니다.
-public class BJ9372 {
+public class BJ1158 {
 
     public static void main(String[] args) {
 
