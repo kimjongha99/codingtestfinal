@@ -49,3 +49,4 @@ public class BJ1158 {
         System.out.println(sb);
         }
     }
+
