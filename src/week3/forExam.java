@@ -122,23 +122,50 @@ public class forExam {
           g h i j 10
          */
 
-        int i, j;
-        char c = 'a';
-        int d = 0;
+//        int i, j;
+//        char c = 'a';
+//        int d = 0;
+//
+//        for( i=1; i<=4; i++)
+//        {
+//            for( j=1; j<=i; j++)
+//            {
+//                System.out.print(c+++" ");
+//            }
+//            for( j=1; j<=5-i; j++)
+//            {
+//                System.out.print(++d+" ");
+//            }
+//
+//            System.out.println();
+//        }
 
-        for( i=1; i<=4; i++)
-        {
-            for( j=1; j<=i; j++)
-            {
-                System.out.print(c+++" ");
-            }
-            for( j=1; j<=5-i; j++)
-            {
-                System.out.print(++d+" ");
+
+        System.out.println();
+
+        /*
+          2
+          10 3
+          2
+          6
+          7
+         */
+        int x= sc.nextInt();
+
+        for(int i=1; i<=x; i++){
+            int y = sc.nextInt();
+            int z = sc.nextInt();
+
+            for(int j=1;j<=z;j++){
+
+
             }
 
-            System.out.println();
+
         }
+
+
+
 
     }
 }
