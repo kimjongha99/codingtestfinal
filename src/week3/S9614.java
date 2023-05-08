@@ -3,7 +3,10 @@ package week3;
 import java.io.*;
 import java.util.Scanner;
 // 삼성 코딩역량 .   다채로운구간
+// 어떤 법칙의 순열인지 이해하는 데 매우오래걸림..
 public class S9614 {
+
+    // boolean 배열을 사용해서 트루면 증가하는 식으로 함수 작성.
     private static boolean test(int i, int j, int[] arr, int K) {
         boolean[] temp = new boolean[K + 1];
         for (int k = i; k <= j; k++) {
@@ -85,4 +88,5 @@ public class S9614 {
         }
 
     }
+
 

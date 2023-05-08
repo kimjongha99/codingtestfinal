@@ -1,5 +1,7 @@
 package week3;
 // 누울 자리를 찾아라.
+//구현 문제.
+
 
 import java.util.Scanner;
 
@@ -18,6 +20,9 @@ public class B1652 {
         int row = 0;  //행
         int col = 0; // 열
 
+
+
+        //이중포문 if 문을 사용하여   행열 공간 확인.
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 if (arr[i].charAt(j) == '.') {
