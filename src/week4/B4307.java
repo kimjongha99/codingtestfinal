@@ -2,7 +2,7 @@ package week4;
 
 import java.util.Map;
 import java.util.Scanner;
-
+//https://www.acmicpc.net/problem/4307
 public class B4307 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class B4307 {
                 int temp = Math.min(ant, I-ant);
                 min =Math.max(min,temp);
 
-                max =Math.max(ant,max);
+                max=Math.max(ant,max);
 
                 max=Math.max(I-ant,max);
             }
